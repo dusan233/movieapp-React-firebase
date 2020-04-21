@@ -1,0 +1,35 @@
+.Container {
+  padding: 0px 50px;
+  min-height: 2000px;
+}
+.Wrap h1 {
+  text-align: center;
+  margin: 40px;
+}
+
+@media (min-width: 600px) {
+  .Container {
+    width: 100%;
+    padding: 0 70px;
+  }
+}
+
+@media (min-width: 650px) {
+  .Container {
+    width: 650px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1000px) {
+  .Container {
+    width: 1000px;
+  }
+  .Container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+}

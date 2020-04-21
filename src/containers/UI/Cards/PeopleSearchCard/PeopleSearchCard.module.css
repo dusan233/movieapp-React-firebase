@@ -1,0 +1,20 @@
+.Card {
+  display: flex;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.Img img {
+  width: 100%;
+  display: block;
+}
+.Img {
+  flex: 1;
+}
+.Name {
+  flex: 6;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}

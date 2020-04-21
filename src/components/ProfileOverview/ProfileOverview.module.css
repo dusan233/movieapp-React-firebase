@@ -1,0 +1,67 @@
+.Overview {
+  background-image: radial-gradient(at 30% top, #074034 0%, #081c24 70%);
+  width: 100%;
+}
+.Wrap {
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.Container {
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+}
+.Container h1 {
+  color: white;
+  font-size: 37px;
+}
+.Container h1::before {
+  font-family: fontAwesome;
+  margin-right: 20px;
+  font-size: 30px;
+  content: "\f013";
+}
+.Container h3 {
+  font-size: 25px;
+}
+.UserBadge {
+  background-color: #01d277;
+
+  font-size: 75px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin-right: 40px;
+}
+.Info {
+  color: white;
+}
+
+@media (min-width: 500px) {
+  .UserBadge {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media (min-width: 1000px) {
+  .Container {
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: flex-start;
+  }
+  .UserBadge {
+    margin-right: 100px;
+  }
+  .Container h3 {
+    margin-top: 20px;
+  }
+}

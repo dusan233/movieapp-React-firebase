@@ -1,0 +1,121 @@
+.Backdrop {
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.Back {
+  background-color: #0177d2;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+  width: 218px;
+  cursor: pointer;
+}
+.Container {
+  height: 100%;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+.Img {
+  height: 100%;
+  flex: 1;
+  padding: 90px 0;
+}
+.Img img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+.Info {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 90px 0;
+  color: white;
+}
+.Info i {
+  margin-right: 12px;
+}
+.Info h1 {
+  background-color: #0f4645;
+  font-size: 25px;
+  padding: 10px;
+}
+.Info h2 {
+  background-color: #226261;
+  font-size: 20px;
+  padding: 10px;
+}
+.Overview {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+.Facts {
+  flex: 1;
+  margin-left: 20px;
+  color: #898989;
+}
+.Text {
+  flex: 2;
+  color: #898989;
+}
+.Facts h3,
+.Text h3 {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.Movies {
+  width: 1000px;
+  margin: 30px auto;
+}
+.Movies h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+@media (max-width: 1000px) {
+  .Container {
+    width: 100%;
+    position: relative;
+    display: block;
+    top: 50%;
+  }
+  .Img {
+    display: none;
+  }
+  .Info {
+    height: 100%;
+    padding: 0 20px;
+  }
+  .Overview {
+    display: block;
+    padding: 0 30px;
+    width: 100%;
+  }
+  .Facts {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .Movies {
+    width: 100%;
+    padding: 0 30px;
+  }
+}

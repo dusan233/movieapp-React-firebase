@@ -1,0 +1,50 @@
+.Card {
+  position: relative;
+  height: 100%;
+}
+
+.Card:hover .Details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.Title {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(8, 28, 36, 0.7);
+
+  color: white;
+
+  padding: 10px;
+  text-align: center;
+  z-index: 4;
+}
+.Details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (min-width: 1400px) {
+  .Title {
+    font-size: 15px;
+  }
+  .Details {
+    font-size: 30px;
+  }
+}

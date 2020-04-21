@@ -1,0 +1,70 @@
+.Card {
+  width: 20%;
+  margin: 0 2.5%;
+  position: relative;
+  margin-bottom: 60px;
+}
+.Card img {
+  width: 100%;
+  display: block;
+}
+.Options {
+  position: absolute;
+  bottom: 0;
+  background-color: #0b1d21;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+.Options i {
+  margin-right: 8px;
+  cursor: pointer;
+  color: #596b6f;
+}
+.Options span {
+  font-weight: bold;
+}
+.Number {
+  color: #01d277;
+  font-weight: bold;
+  margin-right: 105px;
+}
+.Title {
+  position: absolute;
+  padding: 5px;
+  color: #0b1d21;
+  text-align: center;
+  font-weight: bold;
+  bottom: -100px;
+  min-height: 100px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .Card {
+    width: 28%;
+    margin: 0 2.63%;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 700px) {
+  .Card {
+    width: 40%;
+    margin: 0 5%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 580px) {
+  .Card {
+    width: 80%;
+    margin: 0 10%;
+    margin-bottom: 70px;
+  }
+  .Number {
+    margin-right: 80px;
+  }
+  .Options {
+    padding: 20px 10px;
+  }
+}

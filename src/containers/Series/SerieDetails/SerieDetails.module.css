@@ -1,0 +1,91 @@
+.Youtube {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.Youtube iframe {
+  width: 70%;
+  height: 70%;
+}
+h4 {
+  width: 1000px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+hr {
+  width: 1000px;
+  margin: 50px auto 0;
+  height: 0.5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 800px) {
+  .Youtube iframe {
+    width: 90%;
+    height: 60%;
+  }
+}
+.TopBilled {
+  text-align: center;
+  margin: 40px 0;
+}
+.Carousel {
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 0 50px 0;
+}
+.ReviewsContainer {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px 150px;
+  height: 350px;
+  overflow: hidden;
+  transition: 1s;
+}
+.SeasonsContainer {
+  width: 1000px;
+  margin: 50px auto;
+  overflow-x: hidden;
+  padding: 20px 20px;
+  overflow-y: scroll;
+  height: 350px;
+  transition: 1s;
+  padding: 0 50px;
+}
+
+@media (min-width: 1300px) {
+  .Carousel {
+    width: 1000px;
+    margin: 0 auto 50px;
+    padding: 0;
+  }
+
+  .Collection {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1100px) {
+  h4 {
+    width: 100%;
+    padding: 2% 10%;
+  }
+  hr {
+    width: 100%;
+  }
+  .ReviewsContainer {
+    width: 100%;
+    padding: 2% 10%;
+  }
+  .SeasonsContainer {
+    width: 100%;
+    padding: 2% 10%;
+  }
+}

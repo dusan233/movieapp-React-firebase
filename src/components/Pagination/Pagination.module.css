@@ -1,0 +1,29 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.Pagination button {
+  border: 0;
+  outline: 0;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Pagination button:hover {
+  color: #01d277;
+}
+.Pagination button i {
+  font-size: 30px;
+}
+.Pagination span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Pagination button:first-of-type {
+  margin-right: 20px;
+}
+.Pagination button:last-of-type {
+  margin-left: 20px;
+}

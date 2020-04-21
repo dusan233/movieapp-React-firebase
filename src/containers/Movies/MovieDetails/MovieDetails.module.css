@@ -1,0 +1,55 @@
+.TopBilled {
+  text-align: center;
+  margin: 40px 0;
+}
+.Carousel {
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 0 50px 0;
+}
+.Collection {
+  width: 90%;
+  margin: 50px auto;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.CollectionContainer {
+  padding: 40px 0;
+  background-color: rgba(125, 84, 25, 0.8);
+  color: white;
+  height: 100%;
+}
+.CollectionContainer h1 {
+  font-size: 25px;
+  text-align: center;
+}
+.ViewCollection {
+  background-color: black;
+  color: white;
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+  display: block;
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.ViewCollection:hover {
+  background-color: black;
+}
+
+@media (min-width: 1300px) {
+  .Carousel {
+    width: 1000px;
+    margin: 0 auto 50px;
+    padding: 0;
+  }
+
+  .Collection {
+    width: 1000px;
+  }
+}

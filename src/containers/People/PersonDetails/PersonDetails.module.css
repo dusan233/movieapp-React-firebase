@@ -1,0 +1,34 @@
+.AditionalInfo {
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 400px;
+}
+.AditionalInfo h4 {
+  width: 100%;
+  padding: 0;
+  margin-top: 30px;
+}
+.History {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.ActingContainer {
+  padding: 20px;
+}
+.ActingContainer h1 {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1000px) {
+  .Wrap {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .AditionalInfo {
+    flex: 1;
+  }
+  .ActingContainer {
+    flex: 2;
+    padding: 30px;
+  }
+}

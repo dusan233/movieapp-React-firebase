@@ -1,0 +1,49 @@
+.Container {
+  cursor: pointer;
+  position: relative;
+}
+.Container i {
+  font-size: 35px;
+  color: white;
+}
+.Options {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  background-color: white;
+  color: black;
+  z-index: 100;
+  width: 600%;
+  left: 50%;
+  top: 150%;
+  transform: translateX(-50%);
+}
+.Options::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 17px;
+  height: 17px;
+  left: 50%;
+  top: -8px;
+  transform: translateX(-50%) rotate(45deg);
+}
+.Options h4 {
+  width: 100%;
+  font-size: 15px;
+  margin: 0;
+  padding: 14px 8px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+.Options h4:hover {
+  color: #01d277;
+}
+.Options h4:nth-last-of-type(1) {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 800px) {
+  .Options {
+    width: 400%;
+  }
+}

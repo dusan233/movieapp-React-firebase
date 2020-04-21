@@ -1,0 +1,115 @@
+.Navbar {
+  background-color: #081c24;
+  color: white;
+  padding: 10px 10px;
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+
+  width: 100%;
+}
+.Main {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 100;
+}
+.Container {
+  display: flex;
+}
+
+.Container img {
+  width: 50px;
+  cursor: pointer;
+}
+.Part2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding-left: 20px;
+}
+.Part2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Part1 {
+  display: none;
+}
+.Part1 li div {
+  display: none;
+  transition: 0.5s;
+  position: absolute;
+  top: 60px;
+  background-color: #081c24;
+  overflow: hidden;
+  border: 1px solid #01d277;
+  z-index: 100;
+}
+
+.Signin {
+  display: none;
+}
+
+@media (min-width: 650px) {
+  .Container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .Container img {
+    width: 70px;
+  }
+  .Burger {
+    display: none;
+  }
+  .Part1 {
+    display: block;
+  }
+  .Part1 ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+  }
+  .Part1 li {
+    margin-right: 40px;
+    cursor: pointer;
+    padding: 20px 0;
+    position: relative;
+  }
+  .Part1 li:hover div {
+    display: block;
+  }
+  .Part1 li:first-of-type {
+    margin-left: 40px;
+  }
+  .Signin {
+    display: block;
+    margin-left: 20px;
+  }
+  .Part2 {
+    justify-content: flex-end;
+  }
+
+  .Part1 li div ul {
+    display: block;
+    height: auto;
+    min-width: 130px;
+  }
+  .Part1 li div ul li {
+    margin: 0;
+    padding: 10px;
+  }
+  .Part1 li div ul li:first-of-type {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .Container {
+    width: 1000px;
+  }
+}

@@ -1,0 +1,10 @@
+.Heading {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}

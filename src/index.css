@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.content {
+  background-color: #081c24;
+  color: white;
+  font-size: 19px;
+
+  overflow: hidden;
+  transition: 0.5s;
+}
+.content ul {
+  list-style-type: none;
+  text-align: center;
+}
+.content li {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+}
+.nesto {
+  height: 700px;
+  width: 100%;
+  background-color: white;
+}

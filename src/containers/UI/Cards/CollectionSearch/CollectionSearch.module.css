@@ -1,0 +1,21 @@
+.Card {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.Img {
+  width: 100%;
+  display: block;
+}
+.Img img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.Name h3 {
+  font-weight: bold;
+  text-align: center;
+}
+.Name {
+  padding: 20px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}

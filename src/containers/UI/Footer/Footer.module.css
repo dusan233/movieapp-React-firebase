@@ -1,0 +1,57 @@
+.Footer {
+  min-height: 450px;
+  width: 100%;
+  background-image: url("../../../assets/footerImg/Dexter-8a2d3d9433580ebdc6238c83547a7bc4e3f86db51b2f2becbd50f08873f2784d.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 450px;
+}
+.Footer1 {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 0px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Footer1 img {
+  width: 140px;
+}
+.Footer2 {
+  flex-basis: 100%;
+  text-align: center;
+}
+.Footer2 a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.Join {
+  display: block;
+  margin: 0px auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #09d37b;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 5px 20px;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  font-weight: 900;
+}
+
+@media (min-width: 1000px) {
+  .Container {
+    width: 300px;
+    margin-left: 50%;
+  }
+}

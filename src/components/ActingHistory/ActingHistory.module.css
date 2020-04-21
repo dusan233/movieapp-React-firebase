@@ -1,0 +1,22 @@
+.ActingHistory {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 7px;
+}
+.Year {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.Title {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.Role {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+}
+@media (min-width: 1000px) {
+  .ActingHistory {
+    padding: 20px;
+  }
+}

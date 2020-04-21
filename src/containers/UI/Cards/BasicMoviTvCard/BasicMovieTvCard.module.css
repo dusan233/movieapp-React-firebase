@@ -1,0 +1,144 @@
+.Card {
+  margin-bottom: 50px;
+
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+.Popup {
+  position: absolute;
+  width: 100%;
+  background-color: #00003f;
+  padding: 10px;
+  color: #01d277;
+  font-weight: bold;
+  top: 0;
+  z-index: 40;
+  text-align: center;
+  transition: 0.4s;
+}
+.Image {
+  flex-basis: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.Image:hover .Icons {
+  transform: translateY(0);
+}
+.Icons {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: translateY(100%);
+  transition: 0.4s;
+}
+.Icons i {
+  font-size: 20px;
+  cursor: pointer;
+}
+.Icons i:first-of-type {
+  margin-right: 20px;
+}
+.Image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.Information {
+  flex-basis: 100%;
+}
+.Part1 {
+  display: flex;
+  flex: 1;
+}
+.Part1 h3 {
+  font-size: 17px;
+  color: black;
+}
+.Part1 p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+.Part2 p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+.Part2 {
+  padding: 10px;
+  flex: 5;
+}
+.Part3 {
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.Rating {
+  padding: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Rating span {
+  background-color: black;
+  color: white;
+  border: 5px solid #01b369;
+  box-shadow: 0 0 0 3px black;
+  border-radius: 50%;
+  padding: 6px;
+  font-weight: bold;
+}
+.Title {
+  padding: 10px;
+}
+
+@media (min-width: 500px) {
+  .Card {
+    display: flex;
+  }
+  .Part1 h3 {
+    font-size: 20px;
+  }
+  .Part2 p {
+    font-size: 17px;
+  }
+  .Information {
+    display: flex;
+    flex-direction: column;
+  }
+  .Part2 {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 1000px) {
+  .Card {
+    flex-basis: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  .Part1 h3 {
+    font-size: 17px;
+  }
+  .Part2 p {
+    font-size: 15px;
+  }
+  .Part2 {
+    padding: 10px;
+  }
+  .Image {
+    flex-basis: 40%;
+  }
+  .Information {
+    flex-basis: 60%;
+  }
+}
